@@ -1,6 +1,7 @@
 <?php
   
-  class clockTowerBellCounter {
+  class clockTowerBellCounter 
+  {
   
   public function __construct()
     {
