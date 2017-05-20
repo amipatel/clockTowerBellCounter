@@ -1,4 +1,6 @@
-class clockTowerBellCounter {
+<?php
+  
+  class clockTowerBellCounter {
   
   function __construct()
     {
@@ -41,8 +43,4 @@ class clockTowerBellCounter {
   } 
 }
 
-$clockTowerBellCounter = new clockTowerBellCounter;
-echo "case1:".$countBells = $clockTowerBellCounter->countBells('2:00','3:00');
-echo "<br>case2:".$countBells = $clockTowerBellCounter->countBells('14:00','15:00');
-echo "<br>case3:".$countBells = $clockTowerBellCounter->countBells('14:23','15:42');
-echo "<br>case4:".$countBells = $clockTowerBellCounter->countBells('23:00','1:00');
+?>
