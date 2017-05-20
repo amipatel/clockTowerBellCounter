@@ -2,7 +2,7 @@
   
   class clockTowerBellCounter {
   
-  function __construct()
+  public function __construct()
     {
       $bellRange = [];$counter=0;
       for($i=0;$i<=23;$i++) {
@@ -17,7 +17,7 @@
       $this->bellRange = $bellRange;
     }
   
-  function countBells($startTime, $endTime){
+  public function countBells($startTime, $endTime){
       if(!preg_match('#^([01]?[0-9]|2[0-3]):[0-5][0-9]$#', $startTime) || !preg_match('#^([01]?[0-9]|2[0-3]):[0-5][0-9]$#', $startTime)) {
        //trigger_error("Incorrect parameters!", E_USER_ERROR);
        return NULL;
